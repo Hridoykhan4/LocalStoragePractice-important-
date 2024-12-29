@@ -14,4 +14,4 @@ const addToLS = id => {
     saveToLS(cart)
 }
 
-const {addToLS, getCartStoredItem};
+export {addToLS, getCartStoredItem};
