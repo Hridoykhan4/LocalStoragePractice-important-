@@ -15,6 +15,7 @@ const Bottles = () => {
   const handleAddToCart = (bottle) => {
         const newBottle = bottle;
         setCart([...cart, newBottle]);
+        
   }
 
   return (
